@@ -10,7 +10,7 @@
     <integer name="config_maxVisibleNotificationIconsOnLock">3</integer>
 
     <!-- Color of the UDFPS pressed view -->
-    <color name="config_udfpsColor">#ffffffff</color>
+    <color name="config_udfpsColor">#00ffffff</color>
 
     <!-- Udfps vendor code -->
     <integer name="config_udfps_vendor_code">0</integer>
