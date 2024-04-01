@@ -123,14 +123,20 @@
             android:fontFamily="@*android:string/config_bodyFontFamily"
             android:textColor="?android:attr/textColorPrimary"
             android:contentDescription="@string/screenrecord_stopdot_label"/>
-        <Switch
+        <FrameLayout
+            android:id="@+id/screenrecord_stopdot_switch_container"
             android:layout_width="wrap_content"
-            android:minWidth="48dp"
-            android:layout_height="48dp"
-            android:layout_weight="0"
-            android:id="@+id/screenrecord_stopdot_switch"
-            style="@style/ScreenRecord.Switch"
-            android:importantForAccessibility="yes"/>
+            android:layout_height="wrap_content">
+            <Switch
+                android:layout_width="wrap_content"
+                android:minWidth="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="0"
+                android:id="@+id/screenrecord_stopdot_switch"
+                android:contentDescription="@string/screenrecord_stopdot_label"
+                style="@style/ScreenRecord.Switch"
+                android:importantForAccessibility="yes"/>
+        </FrameLayout>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/show_lowquality"
@@ -158,14 +164,20 @@
             android:fontFamily="@*android:string/config_bodyFontFamily"
             android:textColor="?android:attr/textColorPrimary"
             android:contentDescription="@string/screenrecord_lowquality_label"/>
-        <Switch
+        <FrameLayout
+            android:id="@+id/screenrecord_lowquality_switch_container"
             android:layout_width="wrap_content"
-            android:minWidth="48dp"
-            android:layout_height="48dp"
-            android:layout_weight="0"
-            android:id="@+id/screenrecord_lowquality_switch"
-            style="@style/ScreenRecord.Switch"
-            android:importantForAccessibility="yes"/>
+            android:layout_height="wrap_content">
+            <Switch
+                android:layout_width="wrap_content"
+                android:minWidth="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="0"
+                android:id="@+id/screenrecord_lowquality_switch"
+                android:contentDescription="@string/screenrecord_lowquality_label"
+                style="@style/ScreenRecord.Switch"
+                android:importantForAccessibility="yes"/>
+        </FrameLayout>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/show_longer_timeout"
@@ -193,14 +205,20 @@
             android:fontFamily="@*android:string/config_bodyFontFamily"
             android:textColor="?android:attr/textColorPrimary"
             android:contentDescription="@string/screenrecord_longer_timeout_switch_label"/>
-        <Switch
+        <FrameLayout
+            android:id="@+id/screenrecord_longer_timeout_switch_container"
             android:layout_width="wrap_content"
-            android:minWidth="48dp"
-            android:layout_height="48dp"
-            android:layout_weight="0"
-            android:id="@+id/screenrecord_longer_timeout_switch"
-            style="@style/ScreenRecord.Switch"
-            android:importantForAccessibility="yes"/>
+            android:layout_height="wrap_content">
+            <Switch
+                android:layout_width="wrap_content"
+                android:minWidth="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="0"
+                android:id="@+id/screenrecord_longer_timeout_switch"
+                android:contentDescription="@string/screenrecord_longer_timeout_switch_label"
+                style="@style/ScreenRecord.Switch"
+                android:importantForAccessibility="yes"/>
+        </FrameLayout>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/show_skip_time"
@@ -228,14 +246,20 @@
             android:fontFamily="@*android:string/config_bodyFontFamily"
             android:textColor="?android:attr/textColorPrimary"
             android:contentDescription="@string/screenrecord_skip_time_label"/>
-        <Switch
+        <FrameLayout
+            android:id="@+id/screenrecord_skip_time_switch_container"
             android:layout_width="wrap_content"
-            android:minWidth="48dp"
-            android:layout_height="48dp"
-            android:layout_weight="0"
-            android:id="@+id/screenrecord_skip_time_switch"
-            style="@style/ScreenRecord.Switch"
-            android:importantForAccessibility="yes"/>
+            android:layout_height="wrap_content">
+            <Switch
+                android:layout_width="wrap_content"
+                android:minWidth="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="0"
+                android:id="@+id/screenrecord_skip_time_switch"
+                android:contentDescription="@string/screenrecord_skip_time_label"
+                style="@style/ScreenRecord.Switch"
+                android:importantForAccessibility="yes"/>
+        </FrameLayout>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/show_hevc"
@@ -263,13 +287,19 @@
             android:fontFamily="@*android:string/config_bodyFontFamily"
             android:textColor="?android:attr/textColorPrimary"
             android:contentDescription="@string/screenrecord_hevc_switch_label"/>
-        <Switch
+        <FrameLayout
+            android:id="@+id/screenrecord_hevc_switch_container"
             android:layout_width="wrap_content"
-            android:minWidth="48dp"
-            android:layout_height="48dp"
-            android:layout_weight="0"
-            android:id="@+id/screenrecord_hevc_switch"
-            style="@style/ScreenRecord.Switch"
-            android:importantForAccessibility="yes"/>
+            android:layout_height="wrap_content">
+            <Switch
+                android:layout_width="wrap_content"
+                android:minWidth="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="0"
+                android:id="@+id/screenrecord_hevc_switch"
+                android:contentDescription="@string/screenrecord_hevc_switch_label"
+                style="@style/ScreenRecord.Switch"
+                android:importantForAccessibility="yes"/>
+        </FrameLayout>
     </LinearLayout>
 </LinearLayout>
